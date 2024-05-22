@@ -11,7 +11,10 @@ $text = $_POST['text'];
 
 // Check if the text is empty to start a new session
 if ($text == "") {
-    $response = "CON Platforms: \n1. Phones \n2. Desktops \n3. Others";
+    $response = "CON Gadget Platforms:\n";
+    $response .= "1. Phones \n";
+    $response .= "2. Desktops \n";
+    $response .= "3. Others";
 
 } elseif ($text == 1) {
     // Business logic level 1 (Phones platforms)...
