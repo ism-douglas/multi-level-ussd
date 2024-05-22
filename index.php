@@ -42,7 +42,9 @@ if ($text == "") {
 
 } elseif ($text == 2) {
     // Business logic level 1 (Desktops platforms)...
-     $response = "CON Desktop Platforms \n1. Windows\n2.Mac";
+     $response = "CON Desktop Platforms:\n";
+     $response .= "1. Windows\n";
+     $response .= "2. Mac";
  
 }  elseif ($text == 2*1) {
     // Business logic level 2 (Windows versions)...
