@@ -48,7 +48,9 @@ if ($text == "") {
  
 }  elseif ($text == 2*1) {
     // Business logic level 2 (Windows versions)...
-    $response = "CON Windows Versions \n1. Windows XP\n2. Windows 11";
+    $response = "CON Windows Versions:\n";
+    $response .= "1. Windows XP\n";
+    $response .= "2. Windows 11";
 
 } elseif ($text == 2*1*1) {
     // Business logic level 3 (Windows versions option 1)...
