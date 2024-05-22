@@ -46,7 +46,7 @@ if ($text == "") {
      $response .= "1. Windows\n";
      $response .= "2. Mac";
  
-}  elseif ($text == "2*1") {
+} elseif ($text == "2*1") {
     // Business logic level 2 (Windows versions)...
     $response = "CON Windows Versions:\n";
     $response .= "1. Windows XP\n";
