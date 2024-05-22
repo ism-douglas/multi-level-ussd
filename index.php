@@ -19,7 +19,9 @@ if ($text == "") {
  
 } elseif ($text == 1*1) {
     // Business logic level 2 (Android versions)...
-    $response = "CON Android Versions \n1. Nougat v1\n2. Oreo v2";
+    $response = "CON Android Versions \n";
+    $response .= "1. Nougat\n";
+    $response .= "2. Oreo";
 
 } elseif ($text == 1*2) {
     // Business logic level 2 (iPhone platforms)...
