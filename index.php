@@ -52,6 +52,10 @@ if ($text == "") {
     $response .= "1. Windows XP\n";
     $response .= "2. Windows 11";
 
+} elseif ($text == "2*2") {
+    // Business logic level 2 (Mac versions)...
+    $response = "END Coming soon ...\n";
+    
 } elseif ($text == "2*1*1") {
     // Business logic level 3 (Windows versions option 1)...
     $response = "END Windows XP was released on October,25 2001";
