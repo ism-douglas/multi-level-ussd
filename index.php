@@ -11,7 +11,7 @@ $text = $_POST['text'];
 
 // Check if the text is empty to start a new session
 if ($text == "") {
-    $response = "CON Platforms: \n1. Phones \n2.Desktops";
+    $response = "CON Platforms: \n1. Phones \n2. Desktops \n3. Others";
 
 } elseif ($text == 1) {
     // Business logic level 1 (Phones platforms)...
@@ -49,7 +49,12 @@ if ($text == "") {
     // Business logic level 3 (Windows versions option 2)...
     $response = "END Windows 11 was released on October,5 2021";
 
-} else {
+} elseif ($text == 3) {
+    // Business logic level 1 (Other platforms)...
+    $response = "END Coming soon ...";
+
+}else {
+    //If input is invalid
     $response = "END Invalid input";
 }
 
