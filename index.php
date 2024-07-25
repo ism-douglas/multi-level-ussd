@@ -21,6 +21,7 @@ if ($text == "") {
      $response = "CON Phone Platforms:\n";
      $response .= "1. Android\n";
      $response .= "2. iPhone";
+     $response .= "3. Others";
  
 } elseif ($text == "1*1") {
     // Business logic level 2 (Android versions)...
